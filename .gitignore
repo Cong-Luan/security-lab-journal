@@ -1,0 +1,6 @@
+#chặn
+*.vmdk
+*.iso
+*.ova
+id_*
+*.pem
