@@ -12,3 +12,8 @@
 - Không dùng bridge trên wifi vì ok ổn định về mạng dễ xung đột.
 - Khi commit đã push mà dùng --amend sẽ làm thay đổi nội dung của lần commit đó.
 
+## Lỗi GH007 xảy ra vì GitHub đã bật chặn push lộ email, nhưng git ở máy vẫn dùng email Gmail thật:
+1. Lấy địa chỉ noreply
+2. Chạy lệnh git config --global user.email "Địa chỉ noreply ở bước 1"
+3. Ghi lại author cho commit chưa push: git commit --amend --no-edit --reset-author
+4. Push: git push origin main
