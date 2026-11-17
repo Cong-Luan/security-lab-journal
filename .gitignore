@@ -4,3 +4,7 @@
 *.ova
 id_*
 *.pem
+*.vmx
+*.nvram
+*.log
+.env
